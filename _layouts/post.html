@@ -16,7 +16,7 @@ layout: default
     <a href="/tags.html#{{ tag }}" title="{{ tag }}">#{{ tag }}</a>
     {% endfor %}
   </span>
-  <!-- BEGIN this would not work on any other domain -->
+  <!-- BEGIN this would not work on any other domain 
   <span
     class           = "like-wrapper"
     like-shortname  = '{{ site.disqus }}'
@@ -30,12 +30,13 @@ layout: default
     l.type = 'text/javascript'; l.async = true; l.src = 'http://www.like-btn.com/javascript/widget.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(l);
   </script>
-  <!-- END this would not work on any other domain -->
+  END this would not work on any other domain -->
   {% endif %}
   </section>
   <section class="post">
   {{ content }}
   </section>
+
   {% if page.guid %}
   <div class="divider">
     <span>
@@ -59,8 +60,8 @@ layout: default
     </span>
   </div>
 
-  <!-- BEGIN comment
   <section class="comment">
+  {% if post.comments %}
   <div id="disqus_thread"></div>
   <script type="text/javascript">
       var disqus_shortname = '{{ site.disqus }}';
@@ -84,7 +85,8 @@ layout: default
       };
   </script>
   <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  </section>
-  END comment -->
   {% endif %}
+  </section>
+  {% endif %}
+
 </article>
