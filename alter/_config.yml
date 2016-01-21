@@ -1,0 +1,26 @@
+markdown: rdiscount
+highlighter: pygments
+permalink: /:year/:month/:day/:title.html
+name: "XzJi"
+markdown: rdiscount
+
+author: "XzJi"
+atom-baseurl: "http://lhzhang.com"
+disqus: "xzji"
+
+navigations:
+  - title: Archive
+    class: fa fa-list-ul
+    href: /archive.html
+  - title: Tags
+    class: fa fa-tags
+    href: /tags.html
+  - title: About
+    class: fa fa-user
+    href: /about.html
+  - title: Subscribe
+    class: fa fa-rss
+    href: /atom.xml
+  - title: Testsjkldaf
+    class: fa fa-anchor
+

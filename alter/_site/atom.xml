@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>XzJi</title>
+ <link href="http://lhzhang.com/atom.xml" rel="self"/>
+ <link href="http://lhzhang.com"/>
+ <updated>2016-01-21T13:34:03+08:00</updated>
+ <id>http://lhzhang.com/</id>
+ <author>
+   <name>XzJi</name>
+ </author>
+
+ 
+ 
+</feed>
