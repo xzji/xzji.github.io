@@ -20,4 +20,8 @@ Hi, 很高兴遇见你~
 
 时间线:
 
-- 2016.1.21 Blog通过Jekyll & Github搭建成功，主题借用http://lhzhang.com/，未做改动
+- 2016.1.21 
+  Blog通过Jekyll & Github搭建成功，主题借用http://lhzhang.com/，未做改动
+
+- 2016.x.xx
+  skallfdak
