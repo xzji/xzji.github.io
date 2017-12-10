@@ -1,0 +1,19 @@
+# jemdoc: nofooter
+{{<div class="container"><div class="row">}}{{</div></div>}}
+
+~~~
+{}{img_left}{./profile.jpeg}{photo}{180px}{180px}{}
+= Mengqi Chen
+Computer Science\n
+([tinkleidea@gmail.com])
+\n
+[https://scholar.google.com.hk/ Google Scholar]
+~~~
+
+== Publications
+* Corresponding Author
+
+=== Journal Articles
+. \[Conference\] Monkey Chen,Author 2,Author 3, ‘‘Paper Name’’, IEEE Transactions on Mobile Computing (to appear) \[[PATH OF PDF]\]
+
+
